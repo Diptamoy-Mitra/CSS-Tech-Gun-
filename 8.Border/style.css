@@ -1,0 +1,43 @@
+#border {
+
+
+  /* border-style: solid; */
+  /* border-style: dotted; */
+  /* border-style: double; */
+  /* border-style: groove; */
+  /* border-style: outset; */
+  /* border-style: inset; */
+  /* border-style: solid das hed none dotted;                    top right bottom left */
+  /* border-style: solid dashed;                          top,bottom      left,right  */
+
+
+  /* border-width: 5px; */
+
+
+  /* top, right, bottm, left */
+  /* border-width: 5px 10px 2px 7px;
+  border-color: red yellow green blue; */
+
+  /* border: 5px solid green; */
+
+  /* for one side */
+  /* border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: red; */
+
+
+
+  border:5px solid green;
+  /* border-radius: 10px; */
+  /* border-radius: 50%;      circle hoi jbe */
+
+
+  /* border-radius: 10px 20px 30px 5px;       top right bottom lef */
+
+
+  border-top-left-radius: 10px;
+
+
+
+
+}

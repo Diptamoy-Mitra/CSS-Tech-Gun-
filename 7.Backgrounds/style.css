@@ -1,0 +1,39 @@
+#bg{
+  /* background-color: yellow; */
+background-image: url('/images/3.jfif');
+background-repeat: no-repeat;
+/* background-repeat:repeat-x; */
+/* background-repeat:repeat-y; */
+
+
+/* background-position: right top; */
+/* background-position: right bottom; */
+/* background-position: center center; */
+/* background-position: 50px 100px; */
+/* background-position: 5% 10%; */
+
+
+/* background-size: 700px 700px; */
+/* background-size: 100% 50%; */
+
+
+/* background-attachment: scroll; */
+/* background-attachment: fixed; */
+
+/* background-size: contain; */
+
+
+/* background-color: yellow; */
+
+
+
+background-color: yellow;
+background-image: url('/images/3.jfif'), url('/images/1.jfif');
+background-repeat: no-repeat;
+background-position: left top, right bottom;
+}
+
+
+/* body{
+  background-color: red;
+} */

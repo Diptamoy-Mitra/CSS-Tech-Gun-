@@ -1,0 +1,35 @@
+p{
+  color: red;
+}
+
+#p3{
+  color:blue;
+}
+
+.green-text{
+  color: green;
+
+}
+#h{
+  font-size: 90px;
+}
+
+.underline-h{
+  text-decoration: underline;
+}
+
+
+
+
+
+/* ID > CLASS > Element selectors */
+h1{
+  color: red;
+}
+#h11{
+  color: blue;
+  /*    Id is more preferable and priority higher in id */
+}
+.green-text{
+  color: green;
+}

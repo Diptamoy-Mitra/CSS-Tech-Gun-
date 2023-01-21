@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) RGB   (  https://htmlcolorcodes.com )
+rgb(red,green,blue)
+color value between 0 and 255
+black : rgb(0,0,0)
+white: rgb(255,255,255)
+red: rgb(255,0,0)
+Green: rgb(0,255,0)
+Blue: rgb(0,0,255)
+
+
+
+
+2) RGBA
+rgba(red,green,blue,alpha)
+alpha parameter is no b/w 0.0(fully transparent) and 1.0(not transparent)
+rgba(255,99,71,0.5)
+
+
+3) HEX
+#rrggbb 
+rr(red), gg(green) and blue(blue)
+hexadecimal value b/w 00 and ff (same as decimal 0-255)
+red: #ff0000
+black: #000000
+white: #ffffff 
+
+4) HSL 
+hsl(hue,saturation,lightness).
+   hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue.
+saturation is a percentage value, 0% means a shade of gray and 100% is the full of color.
+   lightness is also a percentage, 0% is black, 50% is neither light or dark,100% is white .
+RED: hsl(0,100%,50%).
+
+5) HSLA
+hsla(hue , saturation, lightness, alpha)
