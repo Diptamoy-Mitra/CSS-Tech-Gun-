@@ -19,7 +19,15 @@ body{
   /* margin: 25px 12px 40px 60px; */
 
 
-  width: 200px;
-  margin: auto;
+  /* width: 200px;
+  margin: 20px auto;   top,bottom   left,right */
 
+
+
+  margin-top: 50px;
+}
+
+#colsp{
+
+ margin-bottom: 30px;
 }
