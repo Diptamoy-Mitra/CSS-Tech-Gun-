@@ -4,14 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>box model</title>
+  <title>Writing mode</title>
   <style>
-    
+    #text{
+      width: 500px;
+      border: 1px solid black;
+      /* writing-mode: vertical-rl;    right side */
+      /* writing-mode: vertical-lr ;   left side */
+    }
   </style>
 </head>
 <body>
-
-<!-- total element width= width+left padding+right padding+left margine+right margine+left border+right border  -->
-  
+  <p id="text">lorem ipsum</p>
 </body>
 </html>
