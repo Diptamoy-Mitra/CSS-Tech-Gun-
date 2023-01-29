@@ -1,0 +1,20 @@
+ we use length in width,height,margin,padding,fontsize 
+
+there are two types of units in css.........
+1)Absolute
+2)Reletive 
+
+1)absolute unit--------> 
+
+Cm,Mm,Inch,Px(1 inch=96px),Pt(1 inch=72pt),Pc(1pc=12pt) 
+
+2)Reletive unit-------->
+
+Em,Rem,Vh,Vw,%
+
+
+** Em is reletive to the size of its direct parent
+** Rm is only reletive to the root size(html tag)
+** Vh is 1% of view port height 
+** vW is 1% of view port width 
+** % reletive to the parent
