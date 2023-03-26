@@ -6,10 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>css function</title>
   <style>
-    
+    :root{
+      --primary-color: teal;
+      --btn-color: lightgreen;
+      --text-color: white;
+    }
+    #fun{
+      background-color: var(--primary-color);
+      height: 200px;
+      /* width: 70%; */
+      /* //lets fix that white space */
+      width: calc(100% - 200px);
+    }
+    a{
+      /* top-down   left-right */
+      padding: 10px 30px;    
+      margin: 20px;
+      background-color: var(--btn-color);
+      color: var(--text-color);
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
-  
+     <!-- url() -->
+     <!-- rgba() -->
+
+
+     <div id="fun"></div>
+  <br>
+  <hr>
+  <a href="http://www.google.com">Google</a>
+
 </body>
 </html>
