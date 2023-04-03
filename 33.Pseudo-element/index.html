@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pseudo element</title>
+  <style>
+    /* selector::pseudo-element{} */
+
+    p::first-letter{
+      font-size: 35px;
+      color: blue;
+    }
+    p::first-line{
+      font-size: 35px;
+      color: red;
+    }
+    h1::before{
+      content: url(/images/2.jfif);
+    }
+    h1::after{
+      content: "   added after";
+    }
+
+    ::selection{
+      color: pink;
+      background: yellowgreen;
+    }
+  </style>
+</head>
+<body>
+  <h1>Heading1</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis cum, eos soluta veritatis dicta, consequuntur ut possimus repellat odit at reprehenderit pariatur aspernatur id vero! Ipsam similique quasi praesentium laudantium hic rem ex asperiores deserunt? Mollitia repellat quisquam harum ipsum eos accusamus, quod laudantium neque vel officia? Facilis distinctio, voluptates saepe nemo sequi asperiores nam illo nihil laudantium ducimus?</p>
+  
+</body>
+</html>
